@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        body{
+            margin: 1%;
+            min-height: 700px;
+        }
+        header{
+            height: 180px;
+            margin: 1%;
+            font-family: 楷体;
+            color: rgb(0, 0, 0);
+            font-size: 90px;
+            text-align: center;
+            border-radius: 10px 10px 10px 10px;
+            border-color: whitesmoke;
+            border-style: outset;
+            line-height: 180px;
+            overflow: hidden;
+        }
+        nav{
+            color: whitesmoke;
+            border-radius: 10px 10px 10px 10px;
+            margin: 1%;
+            width: 20%;
+            height: 500px;
+            display: block;
+            float: left;
+            scroll-margin: 0;
+            border-color: whitesmoke;
+            border-style: ridge;
+        }
+        .menu{
+            font-size: 40px;
+            height: 80px;
+            overflow: hidden;
+            transition: 1s;
+            text-align: left;
+        }
+        .menu:hover{
+            text-align: left;
+            height:330px
+        }
+        nav ul li{
+            list-style: none;
+            fontsize: 30px;
+            line-height: 200%;
+        }
+        iframe{
+            margin: 1%;
+            border-style: ridge;
+            display: block;
+            color: whitesmoke;
+            border-radius: 10px 10px 10px 10px;
+            float: right;
+            height: 500px;
+            scroll-margin: 0;
+            width: 75%;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:link{
+            color: white;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: coral;
+        }
+        footer{
+            width:75%;
+            text-align: center;
+            color: rgb(26, 255, 0);
+            fontsize: 50px;
+        }
+    </style>
+</head>
+<body background="https://p3.itc.cn/q_70/images03/20210414/189f75a8c7c1436e92f38326c2cb9563.gif" style="background-repeat: no-repeat;background-size: 100% 100%; background-attachment: fixed">
+    <header>
+    经典游戏之超级马里奥
+</header>
+<article>
+    <nav>
+        <ul>
+            <li class="menu">游戏相关
+                <ul>
+                    <li><a href="data.html" target="choose">游戏资料</a> </li>
+                    <li><a href="activity.html" target="choose">游戏活动</a> </li>
+                    <li><a href="shop.html" target="choose">游戏商城</a> </li>
+                </ul>
+            </li>
+            <hr style="width: 80%"/>
+            <li class="menu">用户中心
+                <ul>
+                    <li><a href="login.html" target="choose">用户登录</a></li>
+                    <li><a href="personal.html" target="choose">个人中心</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <iframe name="choose" id="choose">
+    </iframe>
+</article>
+<footer>张浩南出品，必属精品
+</footer>
+</body>
+</html>
+
+<audio src="https://sv-sycdn.kuwo.cn/8743c6ae56005814d1559b8e6768f4b0/636d1c74/resource/n3/41/88/2171434044.mp3" 
+controls="controls" autoplay="autoplay">
